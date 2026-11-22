@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E6112236-2068-037A-1321-29CEA2A1C217" name="PROFESOR">
+<createdBy>Juan Diego</createdBy>
+<createdTime>2026-10-02 13:31:06 UTC</createdTime>
+<generatorID>7963F1F1-5CD7-45EA-789C-58FE2D8B9752</generatorID>
+<ownerDesignName>Proyecto Datos</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_profesor" id="3BFBD223-86DA-D1EA-3ADB-099BD74253CC">
+<createdBy>Juan Diego</createdBy>
+<createdTime>2026-10-02 13:31:06 UTC</createdTime>
+<generatorID>DCC88E8B-C41D-653A-5E0A-152ED5F20260</generatorID>
+<ownerDesignName>Proyecto Datos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="2A046B3B-9E12-2947-5146-ED0BDF851DA8">
+<createdBy>Juan Diego</createdBy>
+<createdTime>2026-10-02 13:31:06 UTC</createdTime>
+<generatorID>909113F1-2BC1-81E8-D49C-3BFB6F953CFF</generatorID>
+<ownerDesignName>Proyecto Datos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="apellido" id="3AD3C76E-3C8E-20B4-0663-3A709AAA099E">
+<createdBy>Juan Diego</createdBy>
+<createdTime>2026-10-02 13:38:37 UTC</createdTime>
+<ownerDesignName>Proyecto Datos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="8CBBB599-D15D-201F-B697-8BA813D02D4F">
+<createdBy>Juan Diego</createdBy>
+<createdTime>2026-10-02 13:31:06 UTC</createdTime>
+<generatorID>97836305-1549-E9D9-2952-DD8F0C01F788</generatorID>
+<ownerDesignName>Proyecto Datos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_institucion" id="D6ED379A-513A-6E56-EC6F-2847B751F5A7">
+<createdBy>Juan Diego</createdBy>
+<createdTime>2026-10-03 14:54:41 UTC</createdTime>
+<ownerDesignName>Proyecto Datos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="650AF4D2-4AE4-C4F0-957F-AC9B0A7942E5" referredColumn="98535696-0094-2F31-D6ED-7A0094D30392"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5869CBCA-A145-F943-AA93-B6BE1642A6FB" name="PROFESOR_PK">
+<createdBy>Juan Diego</createdBy>
+<createdTime>2026-10-02 13:31:06 UTC</createdTime>
+<generatorID>47104E54-CE3B-EAE7-855D-CEF132F68BCB</generatorID>
+<ownerDesignName>Proyecto Datos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3BFBD223-86DA-D1EA-3ADB-099BD74253CC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E518356A-4FF2-7BEF-A9F8-B25258A54C3B" name="PROFESOR_INSTITUCION_EDUCATIVA_FK">
+<createdBy>Juan Diego</createdBy>
+<createdTime>2026-10-03 14:54:41 UTC</createdTime>
+<ownerDesignName>Proyecto Datos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D6ED379A-513A-6E56-EC6F-2847B751F5A7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

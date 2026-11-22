@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6D81CC43-3FE8-F242-09BB-285920296BCF" name="MATERIAL">
+<createdBy>nicol</createdBy>
+<createdTime>2026-08-28 12:52:37 UTC</createdTime>
+<ownerDesignName>proyecto final</ownerDesignName>
+<engineerTo>
+<item key="98998106-368A-867B-0542-D83E4D566359" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id" id="3D309F42-9B62-77B5-02F7-8FE90D157B7C">
+<createdBy>nicol</createdBy>
+<createdTime>2026-08-28 12:52:45 UTC</createdTime>
+<ownerDesignName>proyecto final</ownerDesignName>
+<engineerTo>
+<item key="98998106-368A-867B-0542-D83E4D566359" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="titulo" id="6A94201C-31D7-5DA9-CE28-D67B31F2CC87">
+<createdBy>nicol</createdBy>
+<createdTime>2026-08-28 12:53:00 UTC</createdTime>
+<ownerDesignName>proyecto final</ownerDesignName>
+<engineerTo>
+<item key="98998106-368A-867B-0542-D83E4D566359" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_publicacion" id="9A8CA445-9697-AF65-BEC2-AF536BD898DE">
+<createdBy>nicol</createdBy>
+<createdTime>2026-08-28 12:53:19 UTC</createdTime>
+<ownerDesignName>proyecto final</ownerDesignName>
+<engineerTo>
+<item key="98998106-368A-867B-0542-D83E4D566359" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numero_descargas" id="E7930BDA-82D0-9B56-D43F-77EB783A9E84">
+<createdBy>nicol</createdBy>
+<createdTime>2026-08-28 12:53:38 UTC</createdTime>
+<ownerDesignName>proyecto final</ownerDesignName>
+<engineerTo>
+<item key="98998106-368A-867B-0542-D83E4D566359" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descripcion" id="C42BA017-957D-12C1-B7E9-FADCDA162125">
+<createdBy>nicol</createdBy>
+<createdTime>2026-08-28 12:53:56 UTC</createdTime>
+<ownerDesignName>proyecto final</ownerDesignName>
+<engineerTo>
+<item key="98998106-368A-867B-0542-D83E4D566359" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id1" id="ACDDA635-333E-61BF-0AD7-30106CBBED10">
+<createdBy>dany2</createdBy>
+<createdTime>2026-09-11 13:48:19 UTC</createdTime>
+<generatorID>57744D79-6A70-F29C-87CB-4A368E6004EB</generatorID>
+<ownerDesignName>proyecto final</ownerDesignName>
+<engineerTo>
+<item key="98998106-368A-867B-0542-D83E4D566359" value="true"/>
+</engineerTo>
+<referedAttribute>BC26F1B2-80FF-696E-01A3-6E31C6F72662</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="39598FD8-8FC1-AC65-3602-BD46718DBCF3" name="MATERIAL PK">
+<createdBy>nicol</createdBy>
+<createdTime>2026-08-28 12:52:57 UTC</createdTime>
+<ownerDesignName>proyecto final</ownerDesignName>
+<engineerTo>
+<item key="98998106-368A-867B-0542-D83E4D566359" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3D309F42-9B62-77B5-02F7-8FE90D157B7C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

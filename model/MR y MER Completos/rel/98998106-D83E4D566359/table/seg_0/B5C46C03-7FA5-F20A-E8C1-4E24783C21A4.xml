@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B5C46C03-7FA5-F20A-E8C1-4E24783C21A4" name="PROGRAMA">
+<createdBy>Juan Diego</createdBy>
+<createdTime>2026-10-03 13:59:23 UTC</createdTime>
+<ownerDesignName>Proyecto Datos</ownerDesignName>
+<ordsAlias>table_10</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_programa" id="E97FCCF1-9914-6DA4-0698-4D94AC96FE82">
+<createdBy>Juan Diego</createdBy>
+<createdTime>2026-10-03 14:00:53 UTC</createdTime>
+<ownerDesignName>Proyecto Datos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="024207B2-475D-32AD-3976-48C3EAE1717E">
+<createdBy>Juan Diego</createdBy>
+<createdTime>2026-10-03 14:00:53 UTC</createdTime>
+<ownerDesignName>Proyecto Datos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_institucion_educativa" id="77112743-CDE2-E764-D245-F8A57FD8C502">
+<createdBy>Juan Diego</createdBy>
+<createdTime>2026-10-03 14:00:53 UTC</createdTime>
+<ownerDesignName>Proyecto Datos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BACCF918-F844-57E1-08D8-FA6DF2D10EB3" referredColumn="98535696-0094-2F31-D6ED-7A0094D30392"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D1D8F079-CAF2-9FF8-08AC-43C9CBF433BC" name="PROGRAMA_PK">
+<createdBy>Juan Diego</createdBy>
+<createdTime>2026-10-03 14:00:53 UTC</createdTime>
+<ownerDesignName>Proyecto Datos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E97FCCF1-9914-6DA4-0698-4D94AC96FE82"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FF0C8C31-2947-6D09-757B-1C528D3B1E8A" name="TABLE_10_INSTITUCION_EDUCATIVA_FK">
+<createdBy>Juan Diego</createdBy>
+<createdTime>2026-10-03 14:00:53 UTC</createdTime>
+<ownerDesignName>Proyecto Datos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="77112743-CDE2-E764-D245-F8A57FD8C502"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

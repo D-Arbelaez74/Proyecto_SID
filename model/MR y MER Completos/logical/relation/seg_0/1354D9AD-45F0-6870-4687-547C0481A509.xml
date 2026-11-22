@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="MATERIAL_GRUPO_FK" directorySegmentName="seg_0" id="1354D9AD-45F0-6870-4687-547C0481A509">
+<createdBy>Juan Diego</createdBy>
+<createdTime>2026-10-09 22:59:52 UTC</createdTime>
+<generatorID>5CEB1DF5-88BE-7D56-8DC7-72CE57F14D2E</generatorID>
+<ownerDesignName>Proyecto Datos</ownerDesignName>
+<engineerTo>
+<item key="98998106-368A-867B-0542-D83E4D566359" value="true"/>
+</engineerTo>
+<sourcePk>CA5265AD-0568-8CC5-589A-E38AF20FEBD9</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>Tiene</nameOnSource>
+<nameOnTarget>Pertenece</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>ADDD66F3-6CD3-02AC-E9A4-D1A70988A411</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>1F46BC1E-DEDE-51C4-D07F-C0AB50704E0C</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

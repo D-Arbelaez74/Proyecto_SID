@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0D2C1681-D123-4FBA-CD9B-535D57C68968" name="GRUPO_DETALLE">
+<createdBy>nicol</createdBy>
+<createdTime>2026-10-04 20:25:59 UTC</createdTime>
+<ownerDesignName>Proyecto Datos</ownerDesignName>
+<ordsAlias>table_17</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_grupo" id="4B7CA087-B0B1-00FE-B632-0C299B8111ED">
+<createdBy>nicol</createdBy>
+<createdTime>2026-10-04 20:26:48 UTC</createdTime>
+<ownerDesignName>Proyecto Datos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7E7B1677-25D0-8F23-EA29-C3BA6142ACB2" referredColumn="7000CEBD-768C-B16A-9A6B-BC29140AFCC4"/>
+</associations>
+</Column>
+<Column name="numero_grupo" id="4FE0B8F1-22A3-6369-643D-DFAFFDC2DB2B">
+<createdBy>nicol</createdBy>
+<createdTime>2026-10-04 20:29:02 UTC</createdTime>
+<ownerDesignName>Proyecto Datos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="horario" id="84D156A4-909E-2ABF-36F6-60F00B31CA5E">
+<createdBy>nicol</createdBy>
+<createdTime>2026-10-04 20:29:02 UTC</createdTime>
+<ownerDesignName>Proyecto Datos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="modalidad" id="65F21126-CB0A-B5F3-3536-BFE1CE8269FC">
+<createdBy>nicol</createdBy>
+<createdTime>2026-10-04 20:29:02 UTC</createdTime>
+<ownerDesignName>Proyecto Datos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="salon" id="981B96CE-37EB-6884-6C6B-2AF906D839C8">
+<createdBy>nicol</createdBy>
+<createdTime>2026-10-04 20:29:02 UTC</createdTime>
+<ownerDesignName>Proyecto Datos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F8AF620B-230B-7BE0-8A2D-F46ED5571F1B" name="GRUPO_DETALLE_PK">
+<createdBy>nicol</createdBy>
+<createdTime>2026-10-04 20:29:02 UTC</createdTime>
+<ownerDesignName>Proyecto Datos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4B7CA087-B0B1-00FE-B632-0C299B8111ED"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0798993B-7ADA-FF2F-C6EC-418049260F46" name="GRUPO_DETALLE_GRUPOS_FK">
+<createdBy>nicol</createdBy>
+<createdTime>2026-10-04 20:35:07 UTC</createdTime>
+<ownerDesignName>Proyecto Datos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4B7CA087-B0B1-00FE-B632-0C299B8111ED"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

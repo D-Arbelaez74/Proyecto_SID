@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="TABLE_10_INSTITUCION_EDUCATIVA_FK" directorySegmentName="seg_0" id="FD6EE7C6-7000-6373-2875-042088615E90">
+<createdBy>Juan Diego</createdBy>
+<createdTime>2026-10-09 22:59:52 UTC</createdTime>
+<generatorID>BACCF918-F844-57E1-08D8-FA6DF2D10EB3</generatorID>
+<ownerDesignName>Proyecto Datos</ownerDesignName>
+<engineerTo>
+<item key="98998106-368A-867B-0542-D83E4D566359" value="true"/>
+</engineerTo>
+<sourcePk>7D9A8B4F-6507-C8F1-117D-46AF7F74B0B7</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>Tiene</nameOnSource>
+<nameOnTarget>Pertenece</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>329D7F37-AE78-02B8-154A-A5E64086923A</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>42F829D9-F2EB-3FA7-6F9F-53892235C090</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

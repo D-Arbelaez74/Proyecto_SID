@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3670FE1B-0BDA-A7A5-9AC1-D88F712DDB9E" name="CURSO">
+<createdBy>Juan Diego</createdBy>
+<createdTime>2026-10-02 13:31:06 UTC</createdTime>
+<generatorID>33763387-BBEF-BBDC-B440-02071F4C4F39</generatorID>
+<ownerDesignName>Proyecto Datos</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_curso" id="0CA58562-846A-B668-B0CA-8A3EBFF6EF25">
+<createdBy>Juan Diego</createdBy>
+<createdTime>2026-10-02 13:31:06 UTC</createdTime>
+<generatorID>6FEA2962-7639-5AFC-91BD-5E7AECA26D14</generatorID>
+<ownerDesignName>Proyecto Datos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre_curso" id="6F70734C-3775-A191-E555-DEABF5B71275">
+<createdBy>Juan Diego</createdBy>
+<createdTime>2026-10-02 13:31:06 UTC</createdTime>
+<generatorID>9C677F6A-005A-3EF4-0C0C-3B484A2DA052</generatorID>
+<ownerDesignName>Proyecto Datos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="creditos" id="0CB695C0-FAA5-E7BF-A883-C4CA867624E2">
+<createdBy>Juan Diego</createdBy>
+<createdTime>2026-10-02 13:31:06 UTC</createdTime>
+<generatorID>794871EA-AA85-583A-203C-ABE4DF1AA50D</generatorID>
+<ownerDesignName>Proyecto Datos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C5629AA4-701E-28DB-C41F-561B17B7FC94" name="CURSO_PK">
+<createdBy>Juan Diego</createdBy>
+<createdTime>2026-10-02 13:31:06 UTC</createdTime>
+<generatorID>C19E4553-BF91-60A9-5A47-DD1D5217143A</generatorID>
+<ownerDesignName>Proyecto Datos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0CA58562-846A-B668-B0CA-8A3EBFF6EF25"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

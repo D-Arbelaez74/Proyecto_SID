@@ -1,0 +1,5 @@
+Descripción del Proyecto
+
+El proyecto que desarrollamos en grupo, aunque no es algo que conozcamos que exista en el mundo real, si nos ayudo como guía una plataforma que se llama el Rincón del Vago. Este era principalmente para libros que se podían adquirir de forma gratuita, y por eso nosotros decidimos incluir más cosas y adaptarlo al ámbito educativo. Pensamos que si se lograra hacer en el mundo real podría llegar a ser de bastante utilidad, incluso con la IA ya existiendo.
+
+Link a pagina original: https://www.rincondelvago.com/

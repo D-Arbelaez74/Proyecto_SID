@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EE890C99-6B0A-6901-97ED-567DB9572D0F" name="MATERIAL_GUARDADO">
+<createdBy>Juan Diego</createdBy>
+<createdTime>2026-10-03 16:21:55 UTC</createdTime>
+<ownerDesignName>Proyecto Datos</ownerDesignName>
+<ordsAlias>table_21</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_estudiante" id="5A1AE80E-0DEE-930D-39EA-D16C08E04ADD">
+<createdBy>Juan Diego</createdBy>
+<createdTime>2026-10-03 16:23:00 UTC</createdTime>
+<ownerDesignName>Proyecto Datos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="196DBA46-97CA-DE37-03D1-20137EDAD346" referredColumn="D17C6BA2-3EDD-1C96-997D-0C3B0182C5E8"/>
+</associations>
+</Column>
+<Column name="id_material" id="3DA67378-44BF-94BF-CAFF-FCB943ACEEA1">
+<createdBy>Juan Diego</createdBy>
+<createdTime>2026-10-03 16:23:00 UTC</createdTime>
+<ownerDesignName>Proyecto Datos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4A7CA3CA-6EBB-C3DF-754B-5FCEB1B3DC4E" referredColumn="7798BE97-1B82-5B96-AFEB-BB1301EAE5F3"/>
+</associations>
+</Column>
+<Column name="fecha_guardado" id="66FB36F2-D7DE-9DF0-5696-AD8EB67DC15F">
+<createdBy>Juan Diego</createdBy>
+<createdTime>2026-10-03 16:23:00 UTC</createdTime>
+<ownerDesignName>Proyecto Datos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CA0CD1DD-60E9-F674-A88F-59D37D344140" name="MATERIAL_GUARDADO_PK">
+<createdBy>Juan Diego</createdBy>
+<createdTime>2026-10-03 16:23:00 UTC</createdTime>
+<ownerDesignName>Proyecto Datos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5A1AE80E-0DEE-930D-39EA-D16C08E04ADD"/>
+<colUsage columnID="3DA67378-44BF-94BF-CAFF-FCB943ACEEA1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FF73CBD4-D461-7C9A-9D18-B4F42B6D30A7" name="TABLE_21_ESTUDIANTE_FK">
+<createdBy>Juan Diego</createdBy>
+<createdTime>2026-10-03 16:23:00 UTC</createdTime>
+<ownerDesignName>Proyecto Datos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5A1AE80E-0DEE-930D-39EA-D16C08E04ADD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1C981A46-F60D-979F-264C-10D9DE669A07" name="TABLE_21_MATERIAL_FK">
+<createdBy>Juan Diego</createdBy>
+<createdTime>2026-10-03 16:23:00 UTC</createdTime>
+<ownerDesignName>Proyecto Datos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3DA67378-44BF-94BF-CAFF-FCB943ACEEA1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

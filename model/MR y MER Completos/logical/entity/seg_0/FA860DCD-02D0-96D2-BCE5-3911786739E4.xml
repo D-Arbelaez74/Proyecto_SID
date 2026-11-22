@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FA860DCD-02D0-96D2-BCE5-3911786739E4" name="ESTUDIANTE">
+<createdBy>Juan Diego</createdBy>
+<createdTime>2026-10-09 22:59:52 UTC</createdTime>
+<generatorID>F3AA8565-CCBC-8E28-A475-FB563584ACB1</generatorID>
+<ownerDesignName>Proyecto Datos</ownerDesignName>
+<engineerTo>
+<item key="98998106-368A-867B-0542-D83E4D566359" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id estudiante" id="E246644D-2272-6D46-50F3-28646DB3B779">
+<createdBy>Juan Diego</createdBy>
+<createdTime>2026-10-09 22:59:52 UTC</createdTime>
+<generatorID>D17C6BA2-3EDD-1C96-997D-0C3B0182C5E8</generatorID>
+<ownerDesignName>Proyecto Datos</ownerDesignName>
+<engineerTo>
+<item key="98998106-368A-867B-0542-D83E4D566359" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="C8858803-94E6-0694-08C4-7B6E11AE7AC5">
+<createdBy>Juan Diego</createdBy>
+<createdTime>2026-10-09 22:59:52 UTC</createdTime>
+<generatorID>CE3AFC64-49B1-5914-9458-B7F51B01F1EB</generatorID>
+<ownerDesignName>Proyecto Datos</ownerDesignName>
+<engineerTo>
+<item key="98998106-368A-867B-0542-D83E4D566359" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="email" id="E98CFB38-FDFE-1CBA-B278-C16A8DE7BBCC">
+<createdBy>Juan Diego</createdBy>
+<createdTime>2026-10-09 22:59:52 UTC</createdTime>
+<generatorID>5D4C559B-4452-41C6-FA79-BC06999F4612</generatorID>
+<ownerDesignName>Proyecto Datos</ownerDesignName>
+<engineerTo>
+<item key="98998106-368A-867B-0542-D83E4D566359" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id institucion academica" id="008D65F4-3E70-2F17-0BDF-BCF475BEEB11">
+<createdBy>Juan Diego</createdBy>
+<createdTime>2026-10-09 22:59:52 UTC</createdTime>
+<generatorID>11682F15-618F-6CD6-8D33-3E111B8187B7</generatorID>
+<ownerDesignName>Proyecto Datos</ownerDesignName>
+<engineerTo>
+<item key="98998106-368A-867B-0542-D83E4D566359" value="true"/>
+</engineerTo>
+<referedAttribute>6A182C07-8FEE-95F7-3846-F6694FD865BD</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="FD54ECD1-061E-9954-C907-C87727FBCF59" name="ESTUDIANTE PK">
+<createdBy>Juan Diego</createdBy>
+<createdTime>2026-10-09 22:59:52 UTC</createdTime>
+<generatorID>2B724E5D-BFDE-B19F-0405-77DA51AEC2C8</generatorID>
+<ownerDesignName>Proyecto Datos</ownerDesignName>
+<engineerTo>
+<item key="98998106-368A-867B-0542-D83E4D566359" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E246644D-2272-6D46-50F3-28646DB3B779</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D10D9D1D-B091-F92E-FBD6-45240ABF8FFA" name="COMENTARIO">
+<createdBy>Juan Diego</createdBy>
+<createdTime>2026-10-03 16:16:40 UTC</createdTime>
+<ownerDesignName>Proyecto Datos</ownerDesignName>
+<ordsAlias>table_18</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_comentario" id="A8E5B3B8-24C1-3F33-8153-337E3C334775">
+<createdBy>Juan Diego</createdBy>
+<createdTime>2026-10-03 16:17:25 UTC</createdTime>
+<ownerDesignName>Proyecto Datos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_estudiante" id="7235F620-C911-940D-7F81-C653C1DAA660">
+<createdBy>Juan Diego</createdBy>
+<createdTime>2026-10-03 16:19:06 UTC</createdTime>
+<ownerDesignName>Proyecto Datos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C223528B-E6B2-D9E2-2B74-03D257D67383" referredColumn="D17C6BA2-3EDD-1C96-997D-0C3B0182C5E8"/>
+</associations>
+</Column>
+<Column name="id_material" id="BE088BF8-8A15-D5E9-B7BB-BE90F9467A02">
+<createdBy>Juan Diego</createdBy>
+<createdTime>2026-10-03 16:19:06 UTC</createdTime>
+<ownerDesignName>Proyecto Datos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FCF3C551-DF49-2D48-DF6E-B013A40EF11F" referredColumn="7798BE97-1B82-5B96-AFEB-BB1301EAE5F3"/>
+</associations>
+</Column>
+<Column name="contenido" id="CA63D6B2-6A15-1A68-A3CF-D86B245C3645">
+<createdBy>Juan Diego</createdBy>
+<createdTime>2026-10-03 16:17:25 UTC</createdTime>
+<ownerDesignName>Proyecto Datos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_comentario" id="E1827A6F-1E15-24E1-D5E6-1E9EE2670E21">
+<createdBy>Juan Diego</createdBy>
+<createdTime>2026-10-03 16:21:38 UTC</createdTime>
+<ownerDesignName>Proyecto Datos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4717103C-8D94-5220-1F99-F59D3A9C7A39" name="COMENTARIOS_PK">
+<createdBy>Juan Diego</createdBy>
+<createdTime>2026-10-03 16:17:25 UTC</createdTime>
+<ownerDesignName>Proyecto Datos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A8E5B3B8-24C1-3F33-8153-337E3C334775"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1D3A5381-A173-7C58-8EF5-4A4D71A5BD58" name="COMENTARIOS_ESTUDIANTE_FK">
+<createdBy>Juan Diego</createdBy>
+<createdTime>2026-10-03 16:19:38 UTC</createdTime>
+<ownerDesignName>Proyecto Datos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7235F620-C911-940D-7F81-C653C1DAA660"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="ED794605-D03D-6FCE-7559-829CDD590FB9" name="COMENTARIOS_MATERIAL_FK">
+<createdBy>Juan Diego</createdBy>
+<createdTime>2026-10-03 16:19:38 UTC</createdTime>
+<ownerDesignName>Proyecto Datos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BE088BF8-8A15-D5E9-B7BB-BE90F9467A02"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="PEMSUM_CURSOS_FK" directorySegmentName="seg_0" id="D87C7D27-87ED-4701-7BB3-2412D44FD10F">
+<createdBy>Juan Diego</createdBy>
+<createdTime>2026-10-09 22:59:52 UTC</createdTime>
+<generatorID>A93F5EC1-CB42-1355-6278-0A102A01FE17</generatorID>
+<ownerDesignName>Proyecto Datos</ownerDesignName>
+<engineerTo>
+<item key="98998106-368A-867B-0542-D83E4D566359" value="true"/>
+</engineerTo>
+<sourcePk>EEEC3FC1-75D1-D5B2-64B9-3BB9F909B818</sourcePk>
+<identifying>true</identifying>
+<nameOnSource>Pertenece</nameOnSource>
+<nameOnTarget>Tiene</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>ECABD0B4-5650-6F3A-7226-8977DB8A17C5</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>AABB3165-3417-6B54-61BB-4AE25D846E7B</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

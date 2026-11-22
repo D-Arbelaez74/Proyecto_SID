@@ -1,0 +1,106 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="74318CF5-208E-9533-892C-8BFC3FA08C60" name="INSCRIPCION_PROGRAMA">
+<createdBy>Juan Diego</createdBy>
+<createdTime>2026-10-03 14:15:18 UTC</createdTime>
+<ownerDesignName>Proyecto Datos</ownerDesignName>
+<ordsAlias>table_16</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_estudiante" id="90755041-EC2F-F7C6-32CD-6D7B0E85FA29">
+<createdBy>Juan Diego</createdBy>
+<createdTime>2026-10-03 14:20:19 UTC</createdTime>
+<ownerDesignName>Proyecto Datos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6CC21EE9-14FF-5AAB-C216-15AD52809748" referredColumn="D17C6BA2-3EDD-1C96-997D-0C3B0182C5E8"/>
+</associations>
+</Column>
+<Column name="id_programa" id="6F3F2E43-9CBB-31F3-3E5D-B22108EADA5B">
+<createdBy>Juan Diego</createdBy>
+<createdTime>2026-10-03 14:20:19 UTC</createdTime>
+<ownerDesignName>Proyecto Datos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F9524444-F87D-2DD2-40CF-83E1FD497FC3" referredColumn="E97FCCF1-9914-6DA4-0698-4D94AC96FE82"/>
+</associations>
+</Column>
+<Column name="fecha_inicio" id="262EF5FA-9AAE-A73E-0ED8-30501DCEB98A">
+<createdBy>Juan Diego</createdBy>
+<createdTime>2026-10-03 14:46:27 UTC</createdTime>
+<ownerDesignName>Proyecto Datos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_fin" id="1A4CBF07-781D-9E12-6084-C61E389A313E">
+<createdBy>Juan Diego</createdBy>
+<createdTime>2026-10-03 14:46:27 UTC</createdTime>
+<ownerDesignName>Proyecto Datos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="estado" id="6A393EA1-4BF9-03F6-847C-88237C269873">
+<createdBy>Juan Diego</createdBy>
+<createdTime>2026-10-03 14:46:27 UTC</createdTime>
+<ownerDesignName>Proyecto Datos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7FBB9205-8456-7BE0-05F3-DFB7414AD316" name="INSCRIPCION_PROGRAMAS_PK">
+<createdBy>Juan Diego</createdBy>
+<createdTime>2026-10-03 15:06:45 UTC</createdTime>
+<ownerDesignName>Proyecto Datos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="90755041-EC2F-F7C6-32CD-6D7B0E85FA29"/>
+<colUsage columnID="6F3F2E43-9CBB-31F3-3E5D-B22108EADA5B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1E72489B-8672-0848-1898-332549A4F965" name="INSCRIPCION_PROGRAMAS_ESTUDIANTE_FK">
+<createdBy>Juan Diego</createdBy>
+<createdTime>2026-10-03 14:20:57 UTC</createdTime>
+<ownerDesignName>Proyecto Datos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="90755041-EC2F-F7C6-32CD-6D7B0E85FA29"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A3D83AF2-D4C7-9064-89CD-2F5CA83C0169" name="INSCRIPCION_PROGRAMAS_PROGRAMA_FK">
+<createdBy>Juan Diego</createdBy>
+<createdTime>2026-10-03 14:20:57 UTC</createdTime>
+<ownerDesignName>Proyecto Datos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6F3F2E43-9CBB-31F3-3E5D-B22108EADA5B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

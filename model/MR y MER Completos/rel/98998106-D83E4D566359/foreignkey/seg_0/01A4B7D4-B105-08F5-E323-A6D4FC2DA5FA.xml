@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="01A4B7D4-B105-08F5-E323-A6D4FC2DA5FA" containerWithKeyObject="CBC18C85-9AF2-8E37-25E7-99DBAAE2F7DF" localFKIndex="5D1BABA6-359E-1E21-8DE2-2411C5CE6C33" name="MATRICULA_GRUPO_FK">
+<createdBy>dany2</createdBy>
+<createdTime>2026-10-11 00:18:38 UTC</createdTime>
+<ownerDesignName>Proyecto Datos</ownerDesignName>
+<referredTableLongName>GRUPO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E76F9A61-0CA1-8F4E-8BB8-797D0F1B6FF4</referredTableID>
+<keyObject>99EC9966-D499-106E-737C-87A3966FDC27</keyObject>
+<referredKeyID>99EC9966-D499-106E-737C-87A3966FDC27</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_grupo</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

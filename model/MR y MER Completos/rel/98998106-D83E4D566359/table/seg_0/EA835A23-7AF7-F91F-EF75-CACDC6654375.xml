@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EA835A23-7AF7-F91F-EF75-CACDC6654375" name="PENSUM">
+<createdBy>Juan Diego</createdBy>
+<createdTime>2026-10-03 14:11:15 UTC</createdTime>
+<ownerDesignName>Proyecto Datos</ownerDesignName>
+<ordsAlias>table_14</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_curso" id="25EE80D1-70A1-3C78-D5CC-0BAD0B48A715">
+<createdBy>Juan Diego</createdBy>
+<createdTime>2026-10-03 14:12:40 UTC</createdTime>
+<ownerDesignName>Proyecto Datos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A93F5EC1-CB42-1355-6278-0A102A01FE17" referredColumn="0CA58562-846A-B668-B0CA-8A3EBFF6EF25"/>
+</associations>
+</Column>
+<Column name="id_programa" id="6C347F75-88BC-A516-BC6D-88C376270C10">
+<createdBy>Juan Diego</createdBy>
+<createdTime>2026-10-03 14:12:40 UTC</createdTime>
+<ownerDesignName>Proyecto Datos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6DACD017-2CE7-71D5-7B6D-D17B8DB23B02" referredColumn="E97FCCF1-9914-6DA4-0698-4D94AC96FE82"/>
+</associations>
+</Column>
+<Column name="semestre" id="1869CE7C-7499-03E1-0B13-A5CAC41A42E3">
+<createdBy>Juan Diego</createdBy>
+<createdTime>2026-10-03 14:48:30 UTC</createdTime>
+<ownerDesignName>Proyecto Datos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="09EDFE29-2676-C2AA-B9D4-496BA20D5215" name="PENSUM_PK">
+<createdBy>Juan Diego</createdBy>
+<createdTime>2026-10-03 15:09:54 UTC</createdTime>
+<ownerDesignName>Proyecto Datos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="25EE80D1-70A1-3C78-D5CC-0BAD0B48A715"/>
+<colUsage columnID="6C347F75-88BC-A516-BC6D-88C376270C10"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="622E6B88-4CEA-3479-0DDA-F142DF3A8C0B" name="PEMSUM_CURSOS_FK">
+<createdBy>Juan Diego</createdBy>
+<createdTime>2026-10-03 14:13:22 UTC</createdTime>
+<ownerDesignName>Proyecto Datos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="25EE80D1-70A1-3C78-D5CC-0BAD0B48A715"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D82A11D3-80A0-9160-3B4D-BD13F0B669EB" name="PEMSUM_PROGRAMA_FK">
+<createdBy>Juan Diego</createdBy>
+<createdTime>2026-10-03 14:13:40 UTC</createdTime>
+<ownerDesignName>Proyecto Datos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6C347F75-88BC-A516-BC6D-88C376270C10"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

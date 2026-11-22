@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="TABLE_21_MATERIAL_FK" directorySegmentName="seg_0" id="4CA0D9C8-5BC2-9875-B8F2-1F955DA97FE3">
+<createdBy>Juan Diego</createdBy>
+<createdTime>2026-10-09 22:59:52 UTC</createdTime>
+<generatorID>4A7CA3CA-6EBB-C3DF-754B-5FCEB1B3DC4E</generatorID>
+<ownerDesignName>Proyecto Datos</ownerDesignName>
+<engineerTo>
+<item key="98998106-368A-867B-0542-D83E4D566359" value="true"/>
+</engineerTo>
+<sourcePk>76B04C41-A97E-B1BB-4879-01A4721F98C7</sourcePk>
+<identifying>true</identifying>
+<nameOnSource>Se subira a </nameOnSource>
+<nameOnTarget>Pertenece</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>1F46BC1E-DEDE-51C4-D07F-C0AB50704E0C</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>3BA5FB0B-5DE4-9877-9675-171C99A12CED</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

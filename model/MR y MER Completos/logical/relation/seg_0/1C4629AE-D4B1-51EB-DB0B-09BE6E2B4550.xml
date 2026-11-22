@@ -1,0 +1,23 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="GRUPO_DETALLE_GRUPOS_FK" directorySegmentName="seg_0" id="1C4629AE-D4B1-51EB-DB0B-09BE6E2B4550">
+<createdBy>Juan Diego</createdBy>
+<createdTime>2026-10-09 22:59:52 UTC</createdTime>
+<generatorID>7E7B1677-25D0-8F23-EA29-C3BA6142ACB2</generatorID>
+<ownerDesignName>Proyecto Datos</ownerDesignName>
+<engineerTo>
+<item key="98998106-368A-867B-0542-D83E4D566359" value="true"/>
+</engineerTo>
+<sourcePk>CA5265AD-0568-8CC5-589A-E38AF20FEBD9</sourcePk>
+<dominantRole>ADDD66F3-6CD3-02AC-E9A4-D1A70988A411</dominantRole>
+<identifying>true</identifying>
+<nameOnSource>Posee</nameOnSource>
+<nameOnTarget>Pertenecen a</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>ADDD66F3-6CD3-02AC-E9A4-D1A70988A411</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>786DFC89-6F84-8BC3-875E-A9AF7A00E8BE</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

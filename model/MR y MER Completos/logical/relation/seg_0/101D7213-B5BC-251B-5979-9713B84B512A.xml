@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="INSCRIPCION_PROGRAMAS_PROGRAMA_FK" directorySegmentName="seg_0" id="101D7213-B5BC-251B-5979-9713B84B512A">
+<createdBy>Juan Diego</createdBy>
+<createdTime>2026-10-09 22:59:52 UTC</createdTime>
+<generatorID>F9524444-F87D-2DD2-40CF-83E1FD497FC3</generatorID>
+<ownerDesignName>Proyecto Datos</ownerDesignName>
+<engineerTo>
+<item key="98998106-368A-867B-0542-D83E4D566359" value="true"/>
+</engineerTo>
+<sourcePk>5EDBA16B-50B0-194F-A9EE-1AEB8725EF10</sourcePk>
+<identifying>true</identifying>
+<nameOnSource>Tiene</nameOnSource>
+<nameOnTarget>Pertenece a</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>42F829D9-F2EB-3FA7-6F9F-53892235C090</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>CB8765DD-F8D1-7EFD-71EB-4D65D734963E</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

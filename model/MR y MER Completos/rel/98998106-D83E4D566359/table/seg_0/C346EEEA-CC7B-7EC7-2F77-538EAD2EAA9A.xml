@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C346EEEA-CC7B-7EC7-2F77-538EAD2EAA9A" name="TITULO">
+<createdBy>nicol</createdBy>
+<createdTime>2026-10-04 19:54:50 UTC</createdTime>
+<ownerDesignName>Proyecto Datos</ownerDesignName>
+<ordsAlias>table_15</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_titulo" id="DF84EF01-8F0E-60FA-BD85-431E167D43FB">
+<createdBy>nicol</createdBy>
+<createdTime>2026-10-04 19:57:58 UTC</createdTime>
+<ownerDesignName>Proyecto Datos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="titulo" id="9651D7E2-2B61-6667-C6F1-6B9D4F1E3E91">
+<createdBy>nicol</createdBy>
+<createdTime>2026-10-04 19:57:58 UTC</createdTime>
+<ownerDesignName>Proyecto Datos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_profesor" id="14F19BFF-DE48-AC3F-D49A-187F93E68161">
+<createdBy>nicol</createdBy>
+<createdTime>2026-10-04 19:59:45 UTC</createdTime>
+<ownerDesignName>Proyecto Datos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6A0171C7-9733-43D5-32F0-E091CD1E0FAC" referredColumn="3BFBD223-86DA-D1EA-3ADB-099BD74253CC"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1879FF5B-E196-D7A9-8642-E1F02C28C402" name="TITULOS_PK">
+<createdBy>nicol</createdBy>
+<createdTime>2026-10-04 19:57:58 UTC</createdTime>
+<ownerDesignName>Proyecto Datos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DF84EF01-8F0E-60FA-BD85-431E167D43FB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="41CB40E1-A327-6161-EAAC-3F05C85515CB" name="TITULOS_PROFESORES_FK">
+<createdBy>nicol</createdBy>
+<createdTime>2026-10-04 20:04:18 UTC</createdTime>
+<ownerDesignName>Proyecto Datos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="14F19BFF-DE48-AC3F-D49A-187F93E68161"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CBC18C85-9AF2-8E37-25E7-99DBAAE2F7DF" name="MATRICULA">
+<createdBy>Juan Diego</createdBy>
+<createdTime>2026-10-02 13:31:06 UTC</createdTime>
+<ownerDesignName>Proyecto Datos</ownerDesignName>
+<ordsAlias>relation_10</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="estudiante_id" id="B02A43DE-FF3E-60BF-AD66-6A036054B777">
+<createdBy>Juan Diego</createdBy>
+<createdTime>2026-10-02 13:31:06 UTC</createdTime>
+<ownerDesignName>Proyecto Datos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FFA8E328-ABC6-69EE-345C-6AFA3ADA2152" referredColumn="D17C6BA2-3EDD-1C96-997D-0C3B0182C5E8"/>
+</associations>
+</Column>
+<Column name="grupo_id" id="032CCD2C-DB76-FC31-3B6E-5AEC582A8C48">
+<createdBy>dany2</createdBy>
+<createdTime>2026-10-11 00:14:41 UTC</createdTime>
+<ownerDesignName>Proyecto Datos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="01A4B7D4-B105-08F5-E323-A6D4FC2DA5FA" referredColumn="7000CEBD-768C-B16A-9A6B-BC29140AFCC4"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="567872BF-D9C5-0161-414A-4B938C516EF4" name="Relation_10_PK">
+<createdBy>Juan Diego</createdBy>
+<createdTime>2026-10-02 13:31:06 UTC</createdTime>
+<ownerDesignName>Proyecto Datos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B02A43DE-FF3E-60BF-AD66-6A036054B777"/>
+<colUsage columnID="032CCD2C-DB76-FC31-3B6E-5AEC582A8C48"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5D1BABA6-359E-1E21-8DE2-2411C5CE6C33" name="MATRICULA_GRUPO_FK">
+<createdBy>dany2</createdBy>
+<createdTime>2026-10-11 00:18:38 UTC</createdTime>
+<ownerDesignName>Proyecto Datos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="032CCD2C-DB76-FC31-3B6E-5AEC582A8C48"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="249C55D3-6AB2-17CD-D36F-220F28A5D7AF" name="MATRICULA_ESTUDIANTE_FK">
+<createdBy>dany2</createdBy>
+<createdTime>2026-10-11 00:18:38 UTC</createdTime>
+<ownerDesignName>Proyecto Datos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B02A43DE-FF3E-60BF-AD66-6A036054B777"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

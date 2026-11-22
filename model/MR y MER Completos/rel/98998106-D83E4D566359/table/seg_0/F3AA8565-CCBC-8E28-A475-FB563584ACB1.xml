@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F3AA8565-CCBC-8E28-A475-FB563584ACB1" name="ESTUDIANTE">
+<createdBy>Juan Diego</createdBy>
+<createdTime>2026-10-02 13:31:06 UTC</createdTime>
+<generatorID>057FEF82-6B6C-1FEB-FB6C-E1232931CD5B</generatorID>
+<ownerDesignName>Proyecto Datos</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_estudiante" id="D17C6BA2-3EDD-1C96-997D-0C3B0182C5E8">
+<createdBy>Juan Diego</createdBy>
+<createdTime>2026-10-02 13:31:06 UTC</createdTime>
+<generatorID>E84399A0-1D88-4D51-8E65-5C1475590595</generatorID>
+<ownerDesignName>Proyecto Datos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="CE3AFC64-49B1-5914-9458-B7F51B01F1EB">
+<createdBy>Juan Diego</createdBy>
+<createdTime>2026-10-02 13:31:06 UTC</createdTime>
+<generatorID>3C0CD8C5-C964-0CE3-DF76-CD73A73687D8</generatorID>
+<ownerDesignName>Proyecto Datos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="5D4C559B-4452-41C6-FA79-BC06999F4612">
+<createdBy>Juan Diego</createdBy>
+<createdTime>2026-10-02 13:31:06 UTC</createdTime>
+<generatorID>DB98CADD-99B2-382A-B618-67245B163520</generatorID>
+<ownerDesignName>Proyecto Datos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_institucion_academica" id="242B327D-56AE-CA31-2D17-0AEF122B2969">
+<createdBy>Juan Diego</createdBy>
+<createdTime>2026-10-03 13:42:30 UTC</createdTime>
+<ownerDesignName>Proyecto Datos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9B83E825-C635-DD64-3810-6AC2C357B554" referredColumn="98535696-0094-2F31-D6ED-7A0094D30392"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2B724E5D-BFDE-B19F-0405-77DA51AEC2C8" name="ESTUDIANTE_PK">
+<createdBy>Juan Diego</createdBy>
+<createdTime>2026-10-02 13:31:06 UTC</createdTime>
+<generatorID>68FF007D-6767-222B-CA33-644B86CA002E</generatorID>
+<ownerDesignName>Proyecto Datos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D17C6BA2-3EDD-1C96-997D-0C3B0182C5E8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="352D2262-B681-A0C2-A954-46DCBCF3DA6C" name="ESTUDIANTE_INSTITUCION_EDUCATIVA_FK">
+<createdBy>Juan Diego</createdBy>
+<createdTime>2026-10-03 13:42:30 UTC</createdTime>
+<ownerDesignName>Proyecto Datos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="242B327D-56AE-CA31-2D17-0AEF122B2969"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

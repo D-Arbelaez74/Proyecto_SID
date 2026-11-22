@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="COMENTARIOS_ESTUDIANTE_FK" directorySegmentName="seg_0" id="098E5AE6-B534-795E-B377-F3D6DED51074">
+<createdBy>Juan Diego</createdBy>
+<createdTime>2026-10-09 22:59:52 UTC</createdTime>
+<generatorID>C223528B-E6B2-D9E2-2B74-03D257D67383</generatorID>
+<ownerDesignName>Proyecto Datos</ownerDesignName>
+<engineerTo>
+<item key="98998106-368A-867B-0542-D83E4D566359" value="true"/>
+</engineerTo>
+<sourcePk>FD54ECD1-061E-9954-C907-C87727FBCF59</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>Tiene</nameOnSource>
+<nameOnTarget>Señala</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>FA860DCD-02D0-96D2-BCE5-3911786739E4</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>4917AB7E-4551-68DC-BD95-A90289EDD804</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

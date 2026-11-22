@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="6DACD017-2CE7-71D5-7B6D-D17B8DB23B02" containerWithKeyObject="EA835A23-7AF7-F91F-EF75-CACDC6654375" localFKIndex="D82A11D3-80A0-9160-3B4D-BD13F0B669EB" name="PEMSUM_PROGRAMA_FK">
+<createdBy>Juan Diego</createdBy>
+<createdTime>2026-10-03 14:13:40 UTC</createdTime>
+<ownerDesignName>Proyecto Datos</ownerDesignName>
+<referredTableLongName>PROGRAMAS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>B5C46C03-7FA5-F20A-E8C1-4E24783C21A4</referredTableID>
+<keyObject>D1D8F079-CAF2-9FF8-08AC-43C9CBF433BC</keyObject>
+<referredKeyID>D1D8F079-CAF2-9FF8-08AC-43C9CBF433BC</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_programa</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

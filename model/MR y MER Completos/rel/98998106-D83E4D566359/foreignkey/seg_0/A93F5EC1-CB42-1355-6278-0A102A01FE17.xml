@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A93F5EC1-CB42-1355-6278-0A102A01FE17" containerWithKeyObject="EA835A23-7AF7-F91F-EF75-CACDC6654375" localFKIndex="622E6B88-4CEA-3479-0DDA-F142DF3A8C0B" name="PEMSUM_CURSOS_FK">
+<createdBy>Juan Diego</createdBy>
+<createdTime>2026-10-03 14:13:22 UTC</createdTime>
+<ownerDesignName>Proyecto Datos</ownerDesignName>
+<referredTableLongName>CURSOS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>3670FE1B-0BDA-A7A5-9AC1-D88F712DDB9E</referredTableID>
+<keyObject>C5629AA4-701E-28DB-C41F-561B17B7FC94</keyObject>
+<referredKeyID>C5629AA4-701E-28DB-C41F-561B17B7FC94</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_curso</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

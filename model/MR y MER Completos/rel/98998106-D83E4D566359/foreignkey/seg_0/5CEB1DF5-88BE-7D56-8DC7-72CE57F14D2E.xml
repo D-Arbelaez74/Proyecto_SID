@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="5CEB1DF5-88BE-7D56-8DC7-72CE57F14D2E" containerWithKeyObject="8700DF18-DFEB-7C76-EDF8-E124D7FDFA6E" localFKIndex="FAB8E9F3-FB7F-557D-E132-443FC1BFE8C2" name="MATERIAL_GRUPO_FK">
+<createdBy>Juan Diego</createdBy>
+<createdTime>2026-10-03 16:31:11 UTC</createdTime>
+<ownerDesignName>Proyecto Datos</ownerDesignName>
+<referredTableLongName>GRUPOS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E76F9A61-0CA1-8F4E-8BB8-797D0F1B6FF4</referredTableID>
+<keyObject>99EC9966-D499-106E-737C-87A3966FDC27</keyObject>
+<referredKeyID>99EC9966-D499-106E-737C-87A3966FDC27</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_profesor,id_curso,id_grupo,periodo</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

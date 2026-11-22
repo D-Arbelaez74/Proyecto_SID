@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_9_PROFESOR_FK" directorySegmentName="seg_0" id="4724C56A-7158-86C4-8CAB-DDD27794E982">
+<createdBy>Juan Diego</createdBy>
+<createdTime>2026-10-09 22:59:52 UTC</createdTime>
+<generatorID>22A9069F-D58E-3EE1-A949-0BD44BE269D2</generatorID>
+<ownerDesignName>Proyecto Datos</ownerDesignName>
+<engineerTo>
+<item key="98998106-368A-867B-0542-D83E4D566359" value="true"/>
+</engineerTo>
+<sourcePk>0A021C82-CEA0-B625-7D6D-F852F71BAF59</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>Enseña en</nameOnSource>
+<nameOnTarget>Enseñado  por</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>A88D26A1-11E2-70FE-FAC1-E6D3225A6BA4</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>ADDD66F3-6CD3-02AC-E9A4-D1A70988A411</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

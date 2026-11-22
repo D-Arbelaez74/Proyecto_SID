@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E76F9A61-0CA1-8F4E-8BB8-797D0F1B6FF4" name="GRUPO">
+<createdBy>Juan Diego</createdBy>
+<createdTime>2026-10-02 13:31:06 UTC</createdTime>
+<ownerDesignName>Proyecto Datos</ownerDesignName>
+<ordsAlias>relation_9</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_grupo" id="7000CEBD-768C-B16A-9A6B-BC29140AFCC4">
+<createdBy>Juan Diego</createdBy>
+<createdTime>2026-10-02 13:59:19 UTC</createdTime>
+<ownerDesignName>Proyecto Datos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_profesor" id="F39591DE-FF5A-F989-E426-6A14B4096BEA">
+<createdBy>Juan Diego</createdBy>
+<createdTime>2026-10-02 13:31:06 UTC</createdTime>
+<ownerDesignName>Proyecto Datos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="22A9069F-D58E-3EE1-A949-0BD44BE269D2" referredColumn="3BFBD223-86DA-D1EA-3ADB-099BD74253CC"/>
+</associations>
+</Column>
+<Column name="id_curso" id="62133EFD-5B72-72B0-80A9-FD7DC0E2A7D0">
+<createdBy>Juan Diego</createdBy>
+<createdTime>2026-10-02 13:31:06 UTC</createdTime>
+<ownerDesignName>Proyecto Datos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F367C766-E823-3A4D-F51D-B4375E7D4CE4" referredColumn="0CA58562-846A-B668-B0CA-8A3EBFF6EF25"/>
+</associations>
+</Column>
+<Column name="periodo" id="F34EE1EB-78F8-3C65-AE0D-2CD884CA85BE">
+<createdBy>Juan Diego</createdBy>
+<createdTime>2026-10-03 15:18:37 UTC</createdTime>
+<ownerDesignName>Proyecto Datos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>6</dataTypeSize>
+<ownDataTypeParameters>6,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="99EC9966-D499-106E-737C-87A3966FDC27" name="Relation_9_PK">
+<createdBy>Juan Diego</createdBy>
+<createdTime>2026-10-02 13:31:06 UTC</createdTime>
+<ownerDesignName>Proyecto Datos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7000CEBD-768C-B16A-9A6B-BC29140AFCC4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="00446397-79AD-14C9-E7BE-8F1DB8A67D48" name="Relation_9_PROFESOR_FK">
+<createdBy>Juan Diego</createdBy>
+<createdTime>2026-10-02 13:31:06 UTC</createdTime>
+<generatorID>30BEFC7A-C34A-26E5-058B-31E543E508BF</generatorID>
+<ownerDesignName>Proyecto Datos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F39591DE-FF5A-F989-E426-6A14B4096BEA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="73F83EA0-DB80-6579-F7E2-CB06CE1326BF" name="Relation_9_CURSO_FK">
+<createdBy>Juan Diego</createdBy>
+<createdTime>2026-10-02 13:31:06 UTC</createdTime>
+<generatorID>30BEFC7A-C34A-26E5-058B-31E543E508BF</generatorID>
+<ownerDesignName>Proyecto Datos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="62133EFD-5B72-72B0-80A9-FD7DC0E2A7D0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

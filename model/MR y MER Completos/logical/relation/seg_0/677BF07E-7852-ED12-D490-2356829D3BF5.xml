@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="MATRICULA_GRUPO_FK" directorySegmentName="seg_0" id="677BF07E-7852-ED12-D490-2356829D3BF5">
+<createdBy>Juan Diego</createdBy>
+<createdTime>2026-10-09 22:59:52 UTC</createdTime>
+<generatorID>49A678B7-B7AF-274F-35DE-1970160A3981</generatorID>
+<ownerDesignName>Proyecto Datos</ownerDesignName>
+<engineerTo>
+<item key="98998106-368A-867B-0542-D83E4D566359" value="true"/>
+</engineerTo>
+<sourcePk>CA5265AD-0568-8CC5-589A-E38AF20FEBD9</sourcePk>
+<identifying>true</identifying>
+<nameOnSource>Registrado por</nameOnSource>
+<nameOnTarget>Tiene</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>ADDD66F3-6CD3-02AC-E9A4-D1A70988A411</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>74D3F057-D094-03BC-3557-55D0ECEA1980</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

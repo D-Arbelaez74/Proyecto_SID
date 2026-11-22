@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="PEMSUM_PROGRAMA_FK" directorySegmentName="seg_0" id="0173164F-F3E0-06BD-8CE2-6F5D1318F385">
+<createdBy>Juan Diego</createdBy>
+<createdTime>2026-10-09 22:59:52 UTC</createdTime>
+<generatorID>6DACD017-2CE7-71D5-7B6D-D17B8DB23B02</generatorID>
+<ownerDesignName>Proyecto Datos</ownerDesignName>
+<engineerTo>
+<item key="98998106-368A-867B-0542-D83E4D566359" value="true"/>
+</engineerTo>
+<sourcePk>5EDBA16B-50B0-194F-A9EE-1AEB8725EF10</sourcePk>
+<identifying>true</identifying>
+<nameOnSource>Pertenece</nameOnSource>
+<nameOnTarget>Tiene</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>42F829D9-F2EB-3FA7-6F9F-53892235C090</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>AABB3165-3417-6B54-61BB-4AE25D846E7B</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

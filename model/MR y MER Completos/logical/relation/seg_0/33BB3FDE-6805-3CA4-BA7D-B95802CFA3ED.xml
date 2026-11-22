@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_9_CURSO_FK" directorySegmentName="seg_0" id="33BB3FDE-6805-3CA4-BA7D-B95802CFA3ED">
+<createdBy>Juan Diego</createdBy>
+<createdTime>2026-10-09 22:59:52 UTC</createdTime>
+<generatorID>F367C766-E823-3A4D-F51D-B4375E7D4CE4</generatorID>
+<ownerDesignName>Proyecto Datos</ownerDesignName>
+<engineerTo>
+<item key="98998106-368A-867B-0542-D83E4D566359" value="true"/>
+</engineerTo>
+<sourcePk>EEEC3FC1-75D1-D5B2-64B9-3BB9F909B818</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>Tiene</nameOnSource>
+<nameOnTarget>Parte de</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>ECABD0B4-5650-6F3A-7226-8977DB8A17C5</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>ADDD66F3-6CD3-02AC-E9A4-D1A70988A411</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
