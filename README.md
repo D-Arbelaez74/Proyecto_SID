@@ -11,3 +11,22 @@ Nosotros como equipo quisimos desarrollar un idea para facilitar el aprendizaje 
 | Elias Saldarriaga | A00410645 | elias06sg |
 | Juan Felipe Alarcón | A00369830 | juanalar13 |
 | Nicolas Arosemena | A00410499 | NicolasArosemena |
+
+
+## Orden para correr los Scripts:
+1. sql/01_DDL_proyecto.sql
+2. sql/02_DML_proyecto.sql
+3. sql/03_DQL_reportes.sql
+4. PLSQL/00_secuencia.sql
+5. PLSQL/01_pkg_material_publishing.sql
+6. PLSQL/02_pkg_material_ranking.sql
+7. Trigger/Trigger_Completo_Entrega_3.sql
+8. Trigger/Casos_de_Prueba_Trigger.sql
+
+PLSQL/03_datos_prueba.sql es una demo con datos propios: correrla solo si
+se quiere probar los paquetes (hace ROLLBACK al final).
+Analisis_uso_de_IA_Entrega_3.pdf es el documento de analisis.
+
+Declaracion_uso_de_IA_Entrega_3.docx es la declaracion y justificacion del uso de IA (nivel 4) que pide el enunciado.
+
+Documentos/ trae el Acta No. 4 y la Bitacora de seguimiento de la Entrega 3.
